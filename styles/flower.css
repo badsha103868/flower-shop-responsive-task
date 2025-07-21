@@ -1,0 +1,67 @@
+.lato-normal {
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body{
+  margin-top: 0;
+}
+
+/* banner part */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin:0 230px;
+  gap: 170px;
+  align-items: center;
+}
+.banner-content{
+  max-width: 700px;
+}
+
+.banner-title{
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 30px;
+}
+.banner-description{
+  font-size: 18px;
+  font-weight: 400;
+  color:rgba(39, 39, 39, 0.6);
+   margin-bottom: 30px;
+   max-width: 600px;
+}
+.banner-img{
+  width: 630px;
+  height: 750px;
+  margin-top: 50px;
+}
+.btn-primary{
+  padding: 20px 40px;
+  background-color: #E55473;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.secondary-bg{
+  background-color: rgba(229, 84, 115, 0.1);
+  
+}
+/* banner part responsive */
+@media screen and (max-width:576px) {
+  .banner{
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+  .banner-img{
+   width: 100%;
+  }
+  
+}
